@@ -7,13 +7,13 @@ import ServicesSection from "../ServicesSection/ServicesSection";
 
 const Home = () => {
   return (
-    <div>
-      <Banner></Banner>
-      <Intro></Intro>
-      <ServicesSection></ServicesSection>
-      <ContactSection></ContactSection>
-      <AppointmentSection></AppointmentSection>
-    </div>
+    <>
+      <Banner />
+      <Intro />
+      <ServicesSection />
+      <ContactSection />
+      <AppointmentSection />
+    </>
   );
 };
 
